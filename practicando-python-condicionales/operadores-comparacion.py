@@ -47,7 +47,7 @@ alerta.
 
 """
 
-temperatura = input("Digite la temperatura actual: ")
+temperatura = int(input("Digite la temperatura actual: "))
 if temperatura > 25:
     print("¡Alerta! Temperatura por encima del limite permitido.")
 
